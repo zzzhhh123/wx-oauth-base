@@ -1,0 +1,15 @@
+{
+  "name": "wx-oauth-base",
+  "version": "1.0.1",
+  "description": "wechat oauth",
+  "keyword": "wechat plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zzzhhh123",
+  "license": "ISC",
+  "dependencies": {
+    "superagent": "^4.0.0-beta.5"
+  }
+}
