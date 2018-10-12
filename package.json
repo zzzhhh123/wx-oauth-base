@@ -1,6 +1,6 @@
 {
   "name": "wx-oauth-base",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "wechat oauth",
   "keyword": "wechat plugin",
   "main": "index.js",
@@ -11,5 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "superagent": "^4.0.0-beta.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zzzhhh123/wx-oauth-base.git"
   }
 }
