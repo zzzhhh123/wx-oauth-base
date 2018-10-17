@@ -51,10 +51,10 @@ var config = {
 }
 router.get('/wxoauth', function (req, res) {
 	if (req.query.code) {
-		var redirect_uri = new wxoauth({app_id: config.appid, redirect_url: xxxx}).getRedirectUrl();
+		var redirect_uri = new wxoauth.wechatOAuth({app_id: config.appid, redirect_url: xxxx}).getRedirectUrl();
 		return res.redirect(redirect_uri)
 	} else {
-		new wxoauth({
+		new wxoauth.wechatOAuth({
 			app_id: config.appid,
 			app_secret: config.appsecret,
 			code: req.query.code,
